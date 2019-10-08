@@ -16,16 +16,12 @@ public class TestBase
     public static Properties prop;
     public static WebDriver driver;
 
-    /*public TestBase() throws IOException
-    {
-        prop = new Properties();
-        prop.load(new FileInputStream("C:\\Users\\Admin\\Documents\\GitHub Automation\\AK_CRMTest\\src\\main\\java\\com\\qa\\config\\config.properties"));
-    }*/
 
     public TestBase()
     {
         try
         {
+            System.out.println("This is to determine the very first call");
             prop = new Properties();
             FileInputStream inputStream = new FileInputStream("C:\\Users\\Admin\\Documents\\GitHub Automation\\AK_CRMTest\\src\\main\\java\\com\\qa\\config\\config.properties");
             prop.load(inputStream);
@@ -41,7 +37,7 @@ public class TestBase
 
     public static void initialization()
     {
-
+        System.out.println("In Initialization method");
         String browserName = prop.getProperty("browser");
 
         if(browserName.equals("chrome"))
