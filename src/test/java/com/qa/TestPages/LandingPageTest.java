@@ -25,7 +25,7 @@ public class LandingPageTest extends TestBase
         landingPage = new LandingPage();
     }
 
-    @Then("Landing Page having title should be displayed")
+    @Then("^Landing Page having title should be displayed$")
     public void homePageTitleTest()
     {
         boolean landingPageTitleValidation = false;
@@ -33,25 +33,25 @@ public class LandingPageTest extends TestBase
         Assert.assertTrue("Title of the page is not correct", landingPageTitleValidation );
     }
 
-    @And("Options for UN and Password should be displayed and enabled")
+    @And("^Options for UN and Password should be displayed and enabled$")
     public void optionForLoginTest()
     {
         Assert.assertTrue("One of the options for UN/PW is not enabled", landingPage.optionForUNAndPW() );
     }
 
-    @And("Login button should be enabled")
+    @And("^Login button should be enabled$")
     public void isLoginBttnEnabledTest()
     {
         Assert.assertTrue("Login Bttn is not enabled", landingPage.isLoginBttnEnabled());
     }
 
-    @Then("Enters the Username and Password")
-    public void enterUNAndPWTest()
+    @Then("^Enters the \"(.*)\" and \"(.*)\"$")
+    public void enterUNAndPWTest(String useName, String passWd)
     {
-        landingPage.entersUserNameAndPW();
+        landingPage.entersUserNameAndPW(useName,passWd);
     }
 
-    @And ("Click on Login Button")
+    @And ("^Click on Login Button$")
     public void clickLoginBttnTest()
     {
         landingPage.clickLoginBttn();

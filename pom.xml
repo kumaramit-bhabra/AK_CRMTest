@@ -55,11 +55,12 @@
             <artifactId>gherkin-jvm-deps</artifactId>
             <version>1.0.6</version>
         </dependency>
-        <dependency>
+
+        <!--<dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-jvm</artifactId>
             <version>4.7.2</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>com.relevantcodes</groupId>

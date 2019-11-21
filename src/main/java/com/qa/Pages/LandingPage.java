@@ -45,10 +45,13 @@ public class LandingPage extends TestBase
         return  loginBttnEnabled;
     }
 
-    public void entersUserNameAndPW()
+    public void entersUserNameAndPW(String userName, String passWord)
     {
-        driver.findElement(By.xpath(prop.getProperty("userNameTextBox"))).sendKeys(prop.getProperty("username"));
-        driver.findElement(By.xpath(prop.getProperty("passwordTextBox"))).sendKeys(prop.getProperty("password"));
+        driver.findElement(By.xpath(prop.getProperty("userNameTextBox"))).sendKeys(userName);
+        driver.findElement(By.xpath(prop.getProperty("passwordTextBox"))).sendKeys(passWord);
+
+        //driver.findElement(By.xpath(prop.getProperty("userNameTextBox"))).sendKeys(prop.getProperty("username"));
+        //driver.findElement(By.xpath(prop.getProperty("passwordTextBox"))).sendKeys(prop.getProperty("password"));
     }
 
     public HomePage clickLoginBttn()
