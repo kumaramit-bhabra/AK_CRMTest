@@ -2,7 +2,7 @@ Feature: To test the Home Page content and Layout and the functionality associat
 
   Background:
     Given user has launched the browser and entered the URL
-    And Enters the Username and Password
+    And Enters the "amitbhabra" and "Testdirector_1"
     And Click on Login Button
 
   Scenario: Check the title of the Home Page
