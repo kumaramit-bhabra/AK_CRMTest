@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "C:\\Users\\Admin\\Documents\\GitHub Automation\\AK_CRMTest\\src\\test\\feature",
-        plugin = {"pretty", "html:test-output"},
+        plugin = {"pretty", "html:test-output", "json:target/cucumber-reports/CucumberTestReport.json"},
         glue = {"com.qa.TestPages"},
         monochrome = true,
         dryRun = false
