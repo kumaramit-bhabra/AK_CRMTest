@@ -64,6 +64,16 @@ public class HomePage extends TestBase
         return new DealsPage();
     }
 
+    public DealsPage clickOnNewDealsLink()
+    {
+        switchingFrame();
+        WebElement eleDeals = driver.findElement(By.xpath("//a[@title = 'Deals']/following-sibling::ul"));
+        JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
+        javascriptExecutor.executeScript("arguments[0].style.visibility='visible';", eleDeals);
+        driver.findElement(By.xpath(prop.getProperty("newDealsLink"))).click();
+        return new DealsPage();
+    }
+
     public ContactsPage clickOnNewContactsLink()
     {
         switchingFrame();

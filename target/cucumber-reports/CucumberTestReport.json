@@ -1,0 +1,1813 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 466298800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enters the \"amitbhabra\" and \"Testdirector_1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amitbhabra",
+                  "offset": 12
+                },
+                {
+                  "val": "Testdirector_1",
+                  "offset": 29
+                }
+              ],
+              "location": "LandingPageTest.enterUNAndPWTest(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4514286200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "LandingPageTest.clickLoginBttnTest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 318521200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on New Contacts link",
+            "match": {
+              "location": "HomePageTest.clickOnNewContactsLinkTest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-24T20:36:30.833Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17066165400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Validate the user is able to create a new Contact",
+        "description": "",
+        "id": "to-validate-contents-of-contacts-page-and-the-functionality-associated-with-it;validate-the-user-is-able-to-create-a-new-contact;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 921637500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1057353200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on the New Contact Page",
+            "match": {
+              "location": "ContactsPageTest.validateUserOnContactsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 749158200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enters the \"tester123\" and \"tester123\" for new contact",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tester123",
+                  "offset": 12
+                },
+                {
+                  "val": "tester123",
+                  "offset": 28
+                }
+              ],
+              "location": "ContactsPageTest.enterContactInformationTest(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2444359600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "new contact should be created",
+            "match": {
+              "location": "ContactsPageTest.isNewContactCreatedTest()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 397529000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enters the \"amitbhabra\" and \"Testdirector_1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amitbhabra",
+                  "offset": 12
+                },
+                {
+                  "val": "Testdirector_1",
+                  "offset": 29
+                }
+              ],
+              "location": "LandingPageTest.enterUNAndPWTest(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7155958200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "LandingPageTest.clickLoginBttnTest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 324052200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on New Contacts link",
+            "match": {
+              "location": "HomePageTest.clickOnNewContactsLinkTest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-24T20:36:58.557Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14470585800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Validate the user is able to create a new Contact",
+        "description": "",
+        "id": "to-validate-contents-of-contacts-page-and-the-functionality-associated-with-it;validate-the-user-is-able-to-create-a-new-contact;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 864631600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1024230900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on the New Contact Page",
+            "match": {
+              "location": "ContactsPageTest.validateUserOnContactsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 848055800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enters the \"tester345\" and \"tester345\" for new contact",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tester345",
+                  "offset": 12
+                },
+                {
+                  "val": "tester345",
+                  "offset": 28
+                }
+              ],
+              "location": "ContactsPageTest.enterContactInformationTest(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2295392800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "new contact should be created",
+            "match": {
+              "location": "ContactsPageTest.isNewContactCreatedTest()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 393104000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enters the \"amitbhabra\" and \"Testdirector_1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amitbhabra",
+                  "offset": 12
+                },
+                {
+                  "val": "Testdirector_1",
+                  "offset": 29
+                }
+              ],
+              "location": "LandingPageTest.enterUNAndPWTest(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8637973200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "LandingPageTest.clickLoginBttnTest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320517200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on New Contacts link",
+            "match": {
+              "location": "HomePageTest.clickOnNewContactsLinkTest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-24T20:37:25.955Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16189182600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validate the user is able to create a new Contact",
+        "description": "",
+        "id": "to-validate-contents-of-contacts-page-and-the-functionality-associated-with-it;validate-the-user-is-able-to-create-a-new-contact;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 840807100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2481418500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on the New Contact Page",
+            "match": {
+              "location": "ContactsPageTest.validateUserOnContactsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 854462100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enters the \"tester678\" and \"tester678\" for new contact",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tester678",
+                  "offset": 12
+                },
+                {
+                  "val": "tester678",
+                  "offset": 28
+                }
+              ],
+              "location": "ContactsPageTest.enterContactInformationTest(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3147246700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "new contact should be created",
+            "match": {
+              "location": "ContactsPageTest.isNewContactCreatedTest()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 519167000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enters the \"amitbhabra\" and \"Testdirector_1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amitbhabra",
+                  "offset": 12
+                },
+                {
+                  "val": "Testdirector_1",
+                  "offset": 29
+                }
+              ],
+              "location": "LandingPageTest.enterUNAndPWTest(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3702028800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "LandingPageTest.clickLoginBttnTest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 353523600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on New Contacts link",
+            "match": {
+              "location": "HomePageTest.clickOnNewContactsLinkTest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-24T20:37:58.833Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16116014400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Validate the user is able to create a new Contact",
+        "description": "",
+        "id": "to-validate-contents-of-contacts-page-and-the-functionality-associated-with-it;validate-the-user-is-able-to-create-a-new-contact;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 860538100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1439594900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on the New Contact Page",
+            "match": {
+              "location": "ContactsPageTest.validateUserOnContactsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 812857700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enters the \"tester901\" and \"tester901\" for new contact",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tester901",
+                  "offset": 12
+                },
+                {
+                  "val": "tester901",
+                  "offset": 28
+                }
+              ],
+              "location": "ContactsPageTest.enterContactInformationTest(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3287585100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "new contact should be created",
+            "match": {
+              "location": "ContactsPageTest.isNewContactCreatedTest()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "To validate contents of Contacts Page and the functionality associated with it",
+    "description": "",
+    "id": "to-validate-contents-of-contacts-page-and-the-functionality-associated-with-it",
+    "keyword": "Feature",
+    "uri": "file:ContactsPage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 662085700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enters the \"amitbhabra\" and \"Testdirector_1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amitbhabra",
+                  "offset": 12
+                },
+                {
+                  "val": "Testdirector_1",
+                  "offset": 29
+                }
+              ],
+              "location": "LandingPageTest.enterUNAndPWTest(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5845689500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "LandingPageTest.clickLoginBttnTest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 419674400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Deals New Deals Link",
+            "match": {
+              "location": "HomePageTest.dealLinksTest()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-24T20:38:25.941Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16729238500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Validate that user is able to create a new Deal",
+        "description": "",
+        "id": "to-test-the-deals-page-functionality;validate-that-user-is-able-to-create-a-new-deal",
+        "after": [
+          {
+            "result": {
+              "duration": 969905500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1040700900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on the Deals Page",
+            "match": {
+              "location": "DealsPageTest.user_is_on_the_Deals_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1366862900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters the details for the Deals",
+            "match": {
+              "location": "DealsPageTest.user_enters_the_details_for_the_Deals(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Mr.",
+                  "Testing Ltd",
+                  "Kumar amit",
+                  "100",
+                  "20",
+                  "10"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 57456800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Clicks on Save button to create deal",
+            "match": {
+              "location": "DealsPageTest.clicks_on_Save_button_to_create_deal()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 568573900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enters the \"amitbhabra\" and \"Testdirector_1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amitbhabra",
+                  "offset": 12
+                },
+                {
+                  "val": "Testdirector_1",
+                  "offset": 29
+                }
+              ],
+              "location": "LandingPageTest.enterUNAndPWTest(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6190483200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "LandingPageTest.clickLoginBttnTest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 429714800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Deals New Deals Link",
+            "match": {
+              "location": "HomePageTest.dealLinksTest()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-24T20:38:53.062Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14683027000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Validate that user is able to create new Deals",
+        "description": "",
+        "id": "to-test-the-deals-page-functionality;validate-that-user-is-able-to-create-new-deals",
+        "after": [
+          {
+            "result": {
+              "duration": 863453800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1114455500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on the Deals Page",
+            "match": {
+              "location": "DealsPageTest.user_is_on_the_Deals_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17608504300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters the details for the Deals and click on Save",
+            "match": {
+              "location": "DealsPageTest.userEntersTheDetailsForTheDealsAndClickOnSave(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Title",
+                  "Company",
+                  "Primary Contact",
+                  "Amount",
+                  "Probability",
+                  "Commission"
+                ]
+              },
+              {
+                "cells": [
+                  "Mr.",
+                  "Testing Ltd",
+                  "Kumar amit",
+                  "100",
+                  "20",
+                  "10"
+                ]
+              },
+              {
+                "cells": [
+                  "Mr.",
+                  "Testing Lt1",
+                  "Kumar amit",
+                  "100",
+                  "20",
+                  "10"
+                ]
+              },
+              {
+                "cells": [
+                  "Mr.",
+                  "Testing Lt2",
+                  "Kumar amit",
+                  "100",
+                  "20",
+                  "10"
+                ]
+              },
+              {
+                "cells": [
+                  "Mr.",
+                  "Testing Lt3",
+                  "Kumar amit",
+                  "100",
+                  "20",
+                  "10"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "To Test the Deals Page Functionality",
+    "description": "",
+    "id": "to-test-the-deals-page-functionality",
+    "keyword": "Feature",
+    "uri": "file:DealsPage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 398576100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enters the \"amitbhabra\" and \"Testdirector_1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amitbhabra",
+                  "offset": 12
+                },
+                {
+                  "val": "Testdirector_1",
+                  "offset": 29
+                }
+              ],
+              "location": "LandingPageTest.enterUNAndPWTest(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6514850800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "LandingPageTest.clickLoginBttnTest()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-24T20:39:34.528Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16660966700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Check the title of the Home Page",
+        "description": "",
+        "id": "to-test-the-home-page-content-and-layout-and-the-functionality-associated-with-it;check-the-title-of-the-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 884828900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17269300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Home Page should be displayed",
+            "match": {
+              "location": "HomePageTest.validateTitleHomePageTest()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 471037200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enters the \"amitbhabra\" and \"Testdirector_1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amitbhabra",
+                  "offset": 12
+                },
+                {
+                  "val": "Testdirector_1",
+                  "offset": 29
+                }
+              ],
+              "location": "LandingPageTest.enterUNAndPWTest(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3879905000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "LandingPageTest.clickLoginBttnTest()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-24T20:39:59.021Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15448506500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Logged in User details are getting displayed",
+        "description": "",
+        "id": "to-test-the-home-page-content-and-layout-and-the-functionality-associated-with-it;logged-in-user-details-are-getting-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 929606500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 172257500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Logged in User name should be displayed",
+            "match": {
+              "location": "HomePageTest.isUserNameDisplayedTest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 502745700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enters the \"amitbhabra\" and \"Testdirector_1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amitbhabra",
+                  "offset": 12
+                },
+                {
+                  "val": "Testdirector_1",
+                  "offset": 29
+                }
+              ],
+              "location": "LandingPageTest.enterUNAndPWTest(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5563020900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "LandingPageTest.clickLoginBttnTest()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-24T20:40:19.928Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14893892600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Validate the Calendar link is enabled and user Click on it",
+        "description": "",
+        "id": "to-test-the-home-page-content-and-layout-and-the-functionality-associated-with-it;validate-the-calendar-link-is-enabled-and-user-click-on-it",
+        "after": [
+          {
+            "result": {
+              "duration": 1388808400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 453203200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on Calendar Link",
+            "match": {
+              "location": "HomePageTest.calendarLinkTest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 595112300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enters the \"amitbhabra\" and \"Testdirector_1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amitbhabra",
+                  "offset": 12
+                },
+                {
+                  "val": "Testdirector_1",
+                  "offset": 29
+                }
+              ],
+              "location": "LandingPageTest.enterUNAndPWTest(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5233317800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "LandingPageTest.clickLoginBttnTest()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-24T20:40:42.736Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15400816900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Validate the Companies link is enabled and user Click on it",
+        "description": "",
+        "id": "to-test-the-home-page-content-and-layout-and-the-functionality-associated-with-it;validate-the-companies-link-is-enabled-and-user-click-on-it",
+        "after": [
+          {
+            "result": {
+              "duration": 1349288600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 540505200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on Companies Link",
+            "match": {
+              "location": "HomePageTest.companiesLinkTest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 491359800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enters the \"amitbhabra\" and \"Testdirector_1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amitbhabra",
+                  "offset": 12
+                },
+                {
+                  "val": "Testdirector_1",
+                  "offset": 29
+                }
+              ],
+              "location": "LandingPageTest.enterUNAndPWTest(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6129609600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "LandingPageTest.clickLoginBttnTest()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-24T20:41:05.861Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15909532600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Validate the Contacts link is enabled and user Click on Contacts Link",
+        "description": "",
+        "id": "to-test-the-home-page-content-and-layout-and-the-functionality-associated-with-it;validate-the-contacts-link-is-enabled-and-user-click-on-contacts-link",
+        "after": [
+          {
+            "result": {
+              "duration": 1278034600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 371585900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks on Contacts Link",
+            "match": {
+              "location": "HomePageTest.contactLinksTest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 517997700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enters the \"amitbhabra\" and \"Testdirector_1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amitbhabra",
+                  "offset": 12
+                },
+                {
+                  "val": "Testdirector_1",
+                  "offset": 29
+                }
+              ],
+              "location": "LandingPageTest.enterUNAndPWTest(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5339947800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "LandingPageTest.clickLoginBttnTest()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-24T20:41:30.111Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15971995800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Validate the Deals link is enabled and user Click on Deals Link",
+        "description": "",
+        "id": "to-test-the-home-page-content-and-layout-and-the-functionality-associated-with-it;validate-the-deals-link-is-enabled-and-user-click-on-deals-link",
+        "after": [
+          {
+            "result": {
+              "duration": 915944200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "User clicks on Deals Link",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 494482100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enters the \"amitbhabra\" and \"Testdirector_1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amitbhabra",
+                  "offset": 12
+                },
+                {
+                  "val": "Testdirector_1",
+                  "offset": 29
+                }
+              ],
+              "location": "LandingPageTest.enterUNAndPWTest(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4331625000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "LandingPageTest.clickLoginBttnTest()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-24T20:41:52.880Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14583288200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Validate the Contacts link is enabled and user is able to Click on New Contacts Link",
+        "description": "",
+        "id": "to-test-the-home-page-content-and-layout-and-the-functionality-associated-with-it;validate-the-contacts-link-is-enabled-and-user-is-able-to-click-on-new-contacts-link",
+        "after": [
+          {
+            "result": {
+              "duration": 935110600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 411587100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User clicks on New Contacts link",
+            "match": {
+              "location": "HomePageTest.clickOnNewContactsLinkTest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test the Home Page content and Layout and the functionality associated with it",
+    "description": "",
+    "id": "to-test-the-home-page-content-and-layout-and-the-functionality-associated-with-it",
+    "keyword": "Feature",
+    "uri": "file:HomePage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-24T20:42:13.642Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14954967300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Check the Landing Page Layout and options that are getting displayed",
+        "description": "",
+        "id": "check-the-landing-page-layout-and-title;check-the-landing-page-layout-and-options-that-are-getting-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 1364184800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18128000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Landing Page having title should be displayed",
+            "match": {
+              "location": "LandingPageTest.homePageTitleTest()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 158417200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Options for UN and Password should be displayed and enabled",
+            "match": {
+              "location": "LandingPageTest.optionForLoginTest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58713700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Login button should be enabled",
+            "match": {
+              "location": "LandingPageTest.isLoginBttnEnabledTest()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-24T20:42:30.212Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18496610100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Operator is able to enter the username and Password",
+        "description": "",
+        "id": "check-the-landing-page-layout-and-title;operator-is-able-to-enter-the-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 828099500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 394015600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enters the \"amitbhabra\" and \"Testdirector_1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amitbhabra",
+                  "offset": 12
+                },
+                {
+                  "val": "Testdirector_1",
+                  "offset": 29
+                }
+              ],
+              "location": "LandingPageTest.enterUNAndPWTest(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3839990200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "LandingPageTest.clickLoginBttnTest()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-24T20:42:53.779Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16815651100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Operator is able to enter the username and Password",
+        "description": "",
+        "id": "check-the-landing-page-layout-and-title;operator-is-able-to-enter-the-username-and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 945953400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 462874100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Enters the \"amitbhabra\" and \"Testdirector_1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amitbhabra",
+                  "offset": 12
+                },
+                {
+                  "val": "Testdirector_1",
+                  "offset": 29
+                }
+              ],
+              "location": "LandingPageTest.enterUNAndPWTest(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7159656000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "LandingPageTest.clickLoginBttnTest()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-24T20:43:19.186Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14785025300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Operator is able to enter the username and Password",
+        "description": "",
+        "id": "check-the-landing-page-layout-and-title;operator-is-able-to-enter-the-username-and-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1007584400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LandingPageTest.closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 376647200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Enters the \"naveenk\" and \"test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "naveenk",
+                  "offset": 12
+                },
+                {
+                  "val": "test@123",
+                  "offset": 26
+                }
+              ],
+              "location": "LandingPageTest.enterUNAndPWTest(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4236281400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "LandingPageTest.clickLoginBttnTest()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Check the Landing Page Layout and title",
+    "description": "",
+    "id": "check-the-landing-page-layout-and-title",
+    "keyword": "Feature",
+    "uri": "file:LandingPage.feature",
+    "tags": []
+  }
+]

@@ -44,10 +44,10 @@ public class HomePageTest extends TestBase
         homePage.clickOnContacts();
     }
 
-    @Then("User clicks on Deals Link")
+    @Then("User clicks on Deals New Deals Link")
     public void dealLinksTest()
     {
-        homePage.clickOnDeals();
+        homePage.clickOnNewDealsLink();
     }
 
     @Then("User clicks on New Contacts link")

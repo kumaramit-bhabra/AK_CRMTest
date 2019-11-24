@@ -6,9 +6,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "C:\\Users\\Admin\\Documents\\GitHub Automation\\AK_CRMTest\\src\\test\\feature",
+        features = "C:\\Users\\Admin\\Documents\\GitHub Automation\\AK_CRMTest\\src\\test\\feature\\",
         plugin = {"pretty", "html:test-output", "json:target/cucumber-reports/CucumberTestReport.json"},
         glue = {"com.qa.TestPages"},
+        // tags = {"@SmokeTest, @RegressionTest"},  This will run tests where tag in feature file is SmokeTest or RegressionTest
+        // tags = {"@SmokeTest", "@RegressionTest"}, // This will run tests where test case is having tags for SmokeTest and RegressionTest
         monochrome = true,
         dryRun = false
 )

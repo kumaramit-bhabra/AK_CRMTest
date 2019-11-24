@@ -13,16 +13,18 @@ public class LandingPageTest extends TestBase
 {
     LandingPage landingPage;
 
-    public LandingPageTest()
-    {
-        super();
-    }
+//    public LandingPageTest()
+//    {
+//        super();
+//    }
 
-    @Given("^user has launched the browser and entered the URL$")
+    @Before
+    // @Given("^user has launched the browser and entered the URL$")
     public void setUp()
     {
         initialization();
         landingPage = new LandingPage();
+        System.out.println("In Before Method");
     }
 
     @Then("^Landing Page having title should be displayed$")
@@ -58,8 +60,11 @@ public class LandingPageTest extends TestBase
     }
 
     @After
-    public void tearDown()
+    //@Then( "^Closes the browser$")
+    public void closes_the_browser()
     {
+        System.out.println("In tear down method");
         driver.quit();
+        System.out.println("In tear down method 123");
     }
 }
