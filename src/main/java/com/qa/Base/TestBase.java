@@ -1,13 +1,19 @@
 package com.qa.Base;
 
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -35,15 +41,17 @@ public class TestBase
 
     }
 
-    public static void initialization()
-    {
+    public static void initialization() throws MalformedURLException {
         System.out.println("In Initialization method");
         String browserName = prop.getProperty("browser");
 
         if(browserName.equals("chrome"))
         {
             System.setProperty("webdriver.chrome.driver","C:\\Users\\Admin\\Documents\\Drivers\\chromedriver.exe");
-            driver = new ChromeDriver();
+            //driver = new ChromeDriver();
+            DesiredCapabilities cap = new DesiredCapabilities();
+            cap.setBrowserName(BrowserType.CHROME);
+            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);
         }
 
         if(browserName.equals("firefox"))
