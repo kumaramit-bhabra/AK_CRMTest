@@ -42,7 +42,7 @@ public class TestBase
     }
 
     public static void initialization() throws MalformedURLException {
-        System.out.println("In Initialization method");
+        System.out.println("In Initialization methodd");
         String browserName = prop.getProperty("browser");
 
         if(browserName.equals("chrome"))
