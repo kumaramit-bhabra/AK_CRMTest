@@ -9,6 +9,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 
+import java.net.MalformedURLException;
+
 public class LandingPageTest extends TestBase
 {
     LandingPage landingPage;
@@ -20,8 +22,7 @@ public class LandingPageTest extends TestBase
 
     @Before
     // @Given("^user has launched the browser and entered the URL$")
-    public void setUp()
-    {
+    public void setUp() throws MalformedURLException {
         initialization();
         landingPage = new LandingPage();
         System.out.println("In Before Method");
