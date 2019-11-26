@@ -29,7 +29,7 @@ public class TestBase
         {
             System.out.println("This is to determine the very first call");
             prop = new Properties();
-            FileInputStream inputStream = new FileInputStream("C:\\Users\\Admin\\Documents\\GitHub Automation\\AK_CRMTest\\src\\main\\java\\com\\qa\\config\\config.properties");
+            FileInputStream inputStream = new FileInputStream("src//main//java//com//qa//config//config.properties");
             prop.load(inputStream);
         }
         catch (FileNotFoundException e) {
@@ -41,8 +41,9 @@ public class TestBase
 
     }
 
-    public static void initialization() throws MalformedURLException {
-        System.out.println("In Initialization methodd");
+    public static void initialization() throws MalformedURLException
+    {
+        System.out.println("In Initialization method");
         String browserName = prop.getProperty("browser");
 
         if(browserName.equals("chrome"))
