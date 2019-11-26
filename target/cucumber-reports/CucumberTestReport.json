@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 466298800,
+              "duration": 1693815500,
               "status": "passed"
             },
             "line": 5,
@@ -33,8 +33,9 @@
           },
           {
             "result": {
-              "duration": 4514286200,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash\nfrom tab crashed\n  (Session info: chrome\u003d78.0.3904.70)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LATITUDE_E7240\u0027, ip: \u0027169.254.114.83\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.4\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.OKpY73}, goog:chromeOptions: {debuggerAddress: localhost:40311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: bdc8a7112c58e3287ca96f27a0e...}\nSession ID: bdc8a7112c58e3287ca96f27a0e2f1e6\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:88)\r\n\tat com.qa.Pages.LandingPage.clickLoginBttn(LandingPage.java:59)\r\n\tat com.qa.TestPages.LandingPageTest.clickLoginBttnTest(LandingPageTest.java:60)\r\n\tat ✽.Click on Login Button(file:ContactsPage.feature:6)\r\n",
+              "duration": 2300497300,
+              "status": "failed"
             },
             "line": 6,
             "name": "Click on Login Button",
@@ -45,8 +46,8 @@
           },
           {
             "result": {
-              "duration": 318521200,
-              "status": "passed"
+              "duration": 2036800,
+              "status": "skipped"
             },
             "line": 7,
             "name": "User clicks on New Contacts link",
@@ -58,11 +59,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-11-24T20:36:30.833Z",
+        "start_timestamp": "2019-11-26T00:24:05.011Z",
         "before": [
           {
             "result": {
-              "duration": 17066165400,
+              "duration": 30469320100,
               "status": "passed"
             },
             "match": {
@@ -77,7 +78,7 @@
         "after": [
           {
             "result": {
-              "duration": 921637500,
+              "duration": 102366600,
               "status": "passed"
             },
             "match": {
@@ -90,8 +91,8 @@
         "steps": [
           {
             "result": {
-              "duration": 1057353200,
-              "status": "passed"
+              "duration": 3889700,
+              "status": "skipped"
             },
             "line": 11,
             "name": "User is on the New Contact Page",
@@ -102,8 +103,8 @@
           },
           {
             "result": {
-              "duration": 749158200,
-              "status": "passed"
+              "duration": 1095400,
+              "status": "skipped"
             },
             "line": 12,
             "name": "enters the \"tester123\" and \"tester123\" for new contact",
@@ -124,8 +125,8 @@
           },
           {
             "result": {
-              "duration": 2444359600,
-              "status": "passed"
+              "duration": 950700,
+              "status": "skipped"
             },
             "line": 13,
             "name": "new contact should be created",
@@ -150,7 +151,7 @@
         "steps": [
           {
             "result": {
-              "duration": 397529000,
+              "duration": 2189812800,
               "status": "passed"
             },
             "line": 5,
@@ -172,8 +173,9 @@
           },
           {
             "result": {
-              "duration": 7155958200,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash\nfrom unknown error: cannot determine loading status\nfrom tab crashed\n  (Session info: chrome\u003d78.0.3904.70)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LATITUDE_E7240\u0027, ip: \u0027169.254.114.83\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.4\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.NknD3o}, goog:chromeOptions: {debuggerAddress: localhost:39543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 8bb29a0bbd5a5f431785bbc7510...}\nSession ID: 8bb29a0bbd5a5f431785bbc7510c540f\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:88)\r\n\tat com.qa.Pages.LandingPage.clickLoginBttn(LandingPage.java:59)\r\n\tat com.qa.TestPages.LandingPageTest.clickLoginBttnTest(LandingPageTest.java:60)\r\n\tat ✽.Click on Login Button(file:ContactsPage.feature:6)\r\n",
+              "duration": 2343790000,
+              "status": "failed"
             },
             "line": 6,
             "name": "Click on Login Button",
@@ -184,8 +186,8 @@
           },
           {
             "result": {
-              "duration": 324052200,
-              "status": "passed"
+              "duration": 1631900,
+              "status": "skipped"
             },
             "line": 7,
             "name": "User clicks on New Contacts link",
@@ -197,11 +199,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-11-24T20:36:58.557Z",
+        "start_timestamp": "2019-11-26T00:24:39.784Z",
         "before": [
           {
             "result": {
-              "duration": 14470585800,
+              "duration": 22160266900,
               "status": "passed"
             },
             "match": {
@@ -216,7 +218,7 @@
         "after": [
           {
             "result": {
-              "duration": 864631600,
+              "duration": 382698100,
               "status": "passed"
             },
             "match": {
@@ -229,8 +231,8 @@
         "steps": [
           {
             "result": {
-              "duration": 1024230900,
-              "status": "passed"
+              "duration": 3688200,
+              "status": "skipped"
             },
             "line": 11,
             "name": "User is on the New Contact Page",
@@ -241,8 +243,8 @@
           },
           {
             "result": {
-              "duration": 848055800,
-              "status": "passed"
+              "duration": 5008100,
+              "status": "skipped"
             },
             "line": 12,
             "name": "enters the \"tester345\" and \"tester345\" for new contact",
@@ -263,8 +265,8 @@
           },
           {
             "result": {
-              "duration": 2295392800,
-              "status": "passed"
+              "duration": 1342600,
+              "status": "skipped"
             },
             "line": 13,
             "name": "new contact should be created",
@@ -289,7 +291,7 @@
         "steps": [
           {
             "result": {
-              "duration": 393104000,
+              "duration": 2692633200,
               "status": "passed"
             },
             "line": 5,
@@ -311,8 +313,9 @@
           },
           {
             "result": {
-              "duration": 8637973200,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.TimeoutException: timeout\n  (Session info: chrome\u003d78.0.3904.70)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LATITUDE_E7240\u0027, ip: \u0027169.254.114.83\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.4\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.fMCRYR}, goog:chromeOptions: {debuggerAddress: localhost:41439}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 5cb59a11645ced6c0f1f37bf72d...}\nSession ID: 5cb59a11645ced6c0f1f37bf72dd509b\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:88)\r\n\tat com.qa.Pages.LandingPage.clickLoginBttn(LandingPage.java:59)\r\n\tat com.qa.TestPages.LandingPageTest.clickLoginBttnTest(LandingPageTest.java:60)\r\n\tat ✽.Click on Login Button(file:ContactsPage.feature:6)\r\n",
+              "duration": 10501457900,
+              "status": "failed"
             },
             "line": 6,
             "name": "Click on Login Button",
@@ -323,8 +326,8 @@
           },
           {
             "result": {
-              "duration": 320517200,
-              "status": "passed"
+              "duration": 1031500,
+              "status": "skipped"
             },
             "line": 7,
             "name": "User clicks on New Contacts link",
@@ -336,11 +339,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-11-24T20:37:25.955Z",
+        "start_timestamp": "2019-11-26T00:25:06.901Z",
         "before": [
           {
             "result": {
-              "duration": 16189182600,
+              "duration": 19878557300,
               "status": "passed"
             },
             "match": {
@@ -355,7 +358,7 @@
         "after": [
           {
             "result": {
-              "duration": 840807100,
+              "duration": 567168200,
               "status": "passed"
             },
             "match": {
@@ -368,8 +371,8 @@
         "steps": [
           {
             "result": {
-              "duration": 2481418500,
-              "status": "passed"
+              "duration": 3311500,
+              "status": "skipped"
             },
             "line": 11,
             "name": "User is on the New Contact Page",
@@ -380,8 +383,8 @@
           },
           {
             "result": {
-              "duration": 854462100,
-              "status": "passed"
+              "duration": 2046200,
+              "status": "skipped"
             },
             "line": 12,
             "name": "enters the \"tester678\" and \"tester678\" for new contact",
@@ -402,8 +405,8 @@
           },
           {
             "result": {
-              "duration": 3147246700,
-              "status": "passed"
+              "duration": 1453700,
+              "status": "skipped"
             },
             "line": 13,
             "name": "new contact should be created",
@@ -428,7 +431,7 @@
         "steps": [
           {
             "result": {
-              "duration": 519167000,
+              "duration": 3608209700,
               "status": "passed"
             },
             "line": 5,
@@ -450,7 +453,7 @@
           },
           {
             "result": {
-              "duration": 3702028800,
+              "duration": 8887788300,
               "status": "passed"
             },
             "line": 6,
@@ -462,7 +465,7 @@
           },
           {
             "result": {
-              "duration": 353523600,
+              "duration": 2128324700,
               "status": "passed"
             },
             "line": 7,
@@ -475,11 +478,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-11-24T20:37:58.833Z",
+        "start_timestamp": "2019-11-26T00:25:40.573Z",
         "before": [
           {
             "result": {
-              "duration": 16116014400,
+              "duration": 23751486000,
               "status": "passed"
             },
             "match": {
@@ -494,7 +497,7 @@
         "after": [
           {
             "result": {
-              "duration": 860538100,
+              "duration": 249953200,
               "status": "passed"
             },
             "match": {
@@ -507,7 +510,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1439594900,
+              "duration": 3707976900,
               "status": "passed"
             },
             "line": 11,
@@ -519,7 +522,7 @@
           },
           {
             "result": {
-              "duration": 812857700,
+              "duration": 3884433000,
               "status": "passed"
             },
             "line": 12,
@@ -541,7 +544,7 @@
           },
           {
             "result": {
-              "duration": 3287585100,
+              "duration": 8286715000,
               "status": "passed"
             },
             "line": 13,
@@ -578,7 +581,7 @@
         "steps": [
           {
             "result": {
-              "duration": 662085700,
+              "duration": 2916610200,
               "status": "passed"
             },
             "line": 5,
@@ -600,8 +603,9 @@
           },
           {
             "result": {
-              "duration": 5845689500,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash\nfrom unknown error: cannot determine loading status\nfrom tab crashed\n  (Session info: chrome\u003d78.0.3904.70)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LATITUDE_E7240\u0027, ip: \u0027169.254.114.83\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.4\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.rT3wX0}, goog:chromeOptions: {debuggerAddress: localhost:39041}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 168a2a931d82c5796491f34f75d...}\nSession ID: 168a2a931d82c5796491f34f75d2323e\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:88)\r\n\tat com.qa.Pages.LandingPage.clickLoginBttn(LandingPage.java:59)\r\n\tat com.qa.TestPages.LandingPageTest.clickLoginBttnTest(LandingPageTest.java:60)\r\n\tat ✽.Click on Login Button(file:DealsPage.feature:6)\r\n",
+              "duration": 3249106000,
+              "status": "failed"
             },
             "line": 6,
             "name": "Click on Login Button",
@@ -612,8 +616,8 @@
           },
           {
             "result": {
-              "duration": 419674400,
-              "status": "passed"
+              "duration": 1415200,
+              "status": "skipped"
             },
             "line": 7,
             "name": "User clicks on Deals New Deals Link",
@@ -625,11 +629,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-11-24T20:38:25.941Z",
+        "start_timestamp": "2019-11-26T00:26:35.091Z",
         "before": [
           {
             "result": {
-              "duration": 16729238500,
+              "duration": 24801484100,
               "status": "passed"
             },
             "match": {
@@ -644,7 +648,7 @@
         "after": [
           {
             "result": {
-              "duration": 969905500,
+              "duration": 192508800,
               "status": "passed"
             },
             "match": {
@@ -657,8 +661,8 @@
         "steps": [
           {
             "result": {
-              "duration": 1040700900,
-              "status": "passed"
+              "duration": 3968200,
+              "status": "skipped"
             },
             "line": 11,
             "name": "user is on the Deals Page",
@@ -669,8 +673,8 @@
           },
           {
             "result": {
-              "duration": 1366862900,
-              "status": "passed"
+              "duration": 4328600,
+              "status": "skipped"
             },
             "line": 12,
             "name": "user enters the details for the Deals",
@@ -693,8 +697,8 @@
           },
           {
             "result": {
-              "duration": 57456800,
-              "status": "passed"
+              "duration": 1431700,
+              "status": "skipped"
             },
             "line": 14,
             "name": "Clicks on Save button to create deal",
@@ -722,7 +726,7 @@
         "steps": [
           {
             "result": {
-              "duration": 568573900,
+              "duration": 2470344100,
               "status": "passed"
             },
             "line": 5,
@@ -744,8 +748,9 @@
           },
           {
             "result": {
-              "duration": 6190483200,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.TimeoutException: timeout\n  (Session info: chrome\u003d78.0.3904.70)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LATITUDE_E7240\u0027, ip: \u0027169.254.114.83\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.4\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.bymJwe}, goog:chromeOptions: {debuggerAddress: localhost:36685}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 7288945fe75e8d72f1ac808365f...}\nSession ID: 7288945fe75e8d72f1ac808365f3959f\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:88)\r\n\tat com.qa.Pages.LandingPage.clickLoginBttn(LandingPage.java:59)\r\n\tat com.qa.TestPages.LandingPageTest.clickLoginBttnTest(LandingPageTest.java:60)\r\n\tat ✽.Click on Login Button(file:DealsPage.feature:6)\r\n",
+              "duration": 10607717100,
+              "status": "failed"
             },
             "line": 6,
             "name": "Click on Login Button",
@@ -756,8 +761,8 @@
           },
           {
             "result": {
-              "duration": 429714800,
-              "status": "passed"
+              "duration": 1814400,
+              "status": "skipped"
             },
             "line": 7,
             "name": "User clicks on Deals New Deals Link",
@@ -769,11 +774,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-11-24T20:38:53.062Z",
+        "start_timestamp": "2019-11-26T00:27:06.299Z",
         "before": [
           {
             "result": {
-              "duration": 14683027000,
+              "duration": 28079279000,
               "status": "passed"
             },
             "match": {
@@ -788,7 +793,7 @@
         "after": [
           {
             "result": {
-              "duration": 863453800,
+              "duration": 188620000,
               "status": "passed"
             },
             "match": {
@@ -801,8 +806,8 @@
         "steps": [
           {
             "result": {
-              "duration": 1114455500,
-              "status": "passed"
+              "duration": 3673500,
+              "status": "skipped"
             },
             "line": 19,
             "name": "user is on the Deals Page",
@@ -813,8 +818,8 @@
           },
           {
             "result": {
-              "duration": 17608504300,
-              "status": "passed"
+              "duration": 14110600,
+              "status": "skipped"
             },
             "line": 20,
             "name": "user enters the details for the Deals and click on Save",
@@ -902,7 +907,7 @@
         "steps": [
           {
             "result": {
-              "duration": 398576100,
+              "duration": 2895942600,
               "status": "passed"
             },
             "line": 5,
@@ -924,7 +929,7 @@
           },
           {
             "result": {
-              "duration": 6514850800,
+              "duration": 8923996900,
               "status": "passed"
             },
             "line": 6,
@@ -937,11 +942,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-11-24T20:39:34.528Z",
+        "start_timestamp": "2019-11-26T00:27:47.695Z",
         "before": [
           {
             "result": {
-              "duration": 16660966700,
+              "duration": 25265274200,
               "status": "passed"
             },
             "match": {
@@ -956,7 +961,7 @@
         "after": [
           {
             "result": {
-              "duration": 884828900,
+              "duration": 285710800,
               "status": "passed"
             },
             "match": {
@@ -969,7 +974,7 @@
         "steps": [
           {
             "result": {
-              "duration": 17269300,
+              "duration": 101416000,
               "status": "passed"
             },
             "line": 10,
@@ -995,7 +1000,7 @@
         "steps": [
           {
             "result": {
-              "duration": 471037200,
+              "duration": 2554254000,
               "status": "passed"
             },
             "line": 5,
@@ -1017,7 +1022,7 @@
           },
           {
             "result": {
-              "duration": 3879905000,
+              "duration": 9039915500,
               "status": "passed"
             },
             "line": 6,
@@ -1030,11 +1035,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-11-24T20:39:59.021Z",
+        "start_timestamp": "2019-11-26T00:28:25.185Z",
         "before": [
           {
             "result": {
-              "duration": 15448506500,
+              "duration": 19143486100,
               "status": "passed"
             },
             "match": {
@@ -1049,7 +1054,7 @@
         "after": [
           {
             "result": {
-              "duration": 929606500,
+              "duration": 180797000,
               "status": "passed"
             },
             "match": {
@@ -1062,7 +1067,7 @@
         "steps": [
           {
             "result": {
-              "duration": 172257500,
+              "duration": 756595600,
               "status": "passed"
             },
             "line": 13,
@@ -1083,7 +1088,7 @@
         "steps": [
           {
             "result": {
-              "duration": 502745700,
+              "duration": 2119839400,
               "status": "passed"
             },
             "line": 5,
@@ -1105,7 +1110,7 @@
           },
           {
             "result": {
-              "duration": 5563020900,
+              "duration": 7711939800,
               "status": "passed"
             },
             "line": 6,
@@ -1118,11 +1123,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-11-24T20:40:19.928Z",
+        "start_timestamp": "2019-11-26T00:28:56.867Z",
         "before": [
           {
             "result": {
-              "duration": 14893892600,
+              "duration": 20724305100,
               "status": "passed"
             },
             "match": {
@@ -1137,7 +1142,7 @@
         "after": [
           {
             "result": {
-              "duration": 1388808400,
+              "duration": 223752900,
               "status": "passed"
             },
             "match": {
@@ -1150,7 +1155,7 @@
         "steps": [
           {
             "result": {
-              "duration": 453203200,
+              "duration": 1365925100,
               "status": "passed"
             },
             "line": 16,
@@ -1171,7 +1176,7 @@
         "steps": [
           {
             "result": {
-              "duration": 595112300,
+              "duration": 2137238200,
               "status": "passed"
             },
             "line": 5,
@@ -1193,8 +1198,9 @@
           },
           {
             "result": {
-              "duration": 5233317800,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash\nfrom unknown error: cannot determine loading status\nfrom tab crashed\n  (Session info: chrome\u003d78.0.3904.70)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LATITUDE_E7240\u0027, ip: \u0027169.254.114.83\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.4\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.tePKUy}, goog:chromeOptions: {debuggerAddress: localhost:43487}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 1dcb62e4d929f3809175e2008ed...}\nSession ID: 1dcb62e4d929f3809175e2008ed2d820\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:88)\r\n\tat com.qa.Pages.LandingPage.clickLoginBttn(LandingPage.java:59)\r\n\tat com.qa.TestPages.LandingPageTest.clickLoginBttnTest(LandingPageTest.java:60)\r\n\tat ✽.Click on Login Button(file:HomePage.feature:6)\r\n",
+              "duration": 2762233600,
+              "status": "failed"
             },
             "line": 6,
             "name": "Click on Login Button",
@@ -1206,11 +1212,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-11-24T20:40:42.736Z",
+        "start_timestamp": "2019-11-26T00:29:29.020Z",
         "before": [
           {
             "result": {
-              "duration": 15400816900,
+              "duration": 19567233500,
               "status": "passed"
             },
             "match": {
@@ -1225,7 +1231,7 @@
         "after": [
           {
             "result": {
-              "duration": 1349288600,
+              "duration": 210304700,
               "status": "passed"
             },
             "match": {
@@ -1238,8 +1244,8 @@
         "steps": [
           {
             "result": {
-              "duration": 540505200,
-              "status": "passed"
+              "duration": 2257700,
+              "status": "skipped"
             },
             "line": 19,
             "name": "User clicks on Companies Link",
@@ -1259,7 +1265,7 @@
         "steps": [
           {
             "result": {
-              "duration": 491359800,
+              "duration": 2219430600,
               "status": "passed"
             },
             "line": 5,
@@ -1281,8 +1287,9 @@
           },
           {
             "result": {
-              "duration": 6129609600,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.TimeoutException: timeout\n  (Session info: chrome\u003d78.0.3904.70)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LATITUDE_E7240\u0027, ip: \u0027169.254.114.83\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.4\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.O6lap3}, goog:chromeOptions: {debuggerAddress: localhost:39415}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 2d9bc3ffbf3891a6a7007cb1968...}\nSession ID: 2d9bc3ffbf3891a6a7007cb19689cee9\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:88)\r\n\tat com.qa.Pages.LandingPage.clickLoginBttn(LandingPage.java:59)\r\n\tat com.qa.TestPages.LandingPageTest.clickLoginBttnTest(LandingPageTest.java:60)\r\n\tat ✽.Click on Login Button(file:HomePage.feature:6)\r\n",
+              "duration": 10428263300,
+              "status": "failed"
             },
             "line": 6,
             "name": "Click on Login Button",
@@ -1294,11 +1301,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-11-24T20:41:05.861Z",
+        "start_timestamp": "2019-11-26T00:29:53.714Z",
         "before": [
           {
             "result": {
-              "duration": 15909532600,
+              "duration": 22296750900,
               "status": "passed"
             },
             "match": {
@@ -1313,7 +1320,7 @@
         "after": [
           {
             "result": {
-              "duration": 1278034600,
+              "duration": 222605600,
               "status": "passed"
             },
             "match": {
@@ -1326,8 +1333,8 @@
         "steps": [
           {
             "result": {
-              "duration": 371585900,
-              "status": "passed"
+              "duration": 1651800,
+              "status": "skipped"
             },
             "line": 22,
             "name": "User clicks on Contacts Link",
@@ -1347,7 +1354,7 @@
         "steps": [
           {
             "result": {
-              "duration": 517997700,
+              "duration": 2179197200,
               "status": "passed"
             },
             "line": 5,
@@ -1369,8 +1376,9 @@
           },
           {
             "result": {
-              "duration": 5339947800,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash\nfrom unknown error: cannot determine loading status\nfrom tab crashed\n  (Session info: chrome\u003d78.0.3904.70)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LATITUDE_E7240\u0027, ip: \u0027169.254.114.83\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.4\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.k69g22}, goog:chromeOptions: {debuggerAddress: localhost:45339}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 28a08a0ddbd4e2aabbc17056830...}\nSession ID: 28a08a0ddbd4e2aabbc1705683048089\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:88)\r\n\tat com.qa.Pages.LandingPage.clickLoginBttn(LandingPage.java:59)\r\n\tat com.qa.TestPages.LandingPageTest.clickLoginBttnTest(LandingPageTest.java:60)\r\n\tat ✽.Click on Login Button(file:HomePage.feature:6)\r\n",
+              "duration": 2641229600,
+              "status": "failed"
             },
             "line": 6,
             "name": "Click on Login Button",
@@ -1382,11 +1390,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-11-24T20:41:30.111Z",
+        "start_timestamp": "2019-11-26T00:30:28.953Z",
         "before": [
           {
             "result": {
-              "duration": 15971995800,
+              "duration": 25135487900,
               "status": "passed"
             },
             "match": {
@@ -1401,7 +1409,7 @@
         "after": [
           {
             "result": {
-              "duration": 915944200,
+              "duration": 234803300,
               "status": "passed"
             },
             "match": {
@@ -1432,7 +1440,7 @@
         "steps": [
           {
             "result": {
-              "duration": 494482100,
+              "duration": 3684552900,
               "status": "passed"
             },
             "line": 5,
@@ -1454,8 +1462,9 @@
           },
           {
             "result": {
-              "duration": 4331625000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.TimeoutException: timeout\n  (Session info: chrome\u003d78.0.3904.70)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LATITUDE_E7240\u0027, ip: \u0027169.254.114.83\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.4\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.iRcGSe}, goog:chromeOptions: {debuggerAddress: localhost:44279}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 7acd82455ad75801f9dc77e78ef...}\nSession ID: 7acd82455ad75801f9dc77e78ef66b84\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:88)\r\n\tat com.qa.Pages.LandingPage.clickLoginBttn(LandingPage.java:59)\r\n\tat com.qa.TestPages.LandingPageTest.clickLoginBttnTest(LandingPageTest.java:60)\r\n\tat ✽.Click on Login Button(file:HomePage.feature:6)\r\n",
+              "duration": 10630093200,
+              "status": "failed"
             },
             "line": 6,
             "name": "Click on Login Button",
@@ -1467,11 +1476,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-11-24T20:41:52.880Z",
+        "start_timestamp": "2019-11-26T00:30:59.159Z",
         "before": [
           {
             "result": {
-              "duration": 14583288200,
+              "duration": 22101793000,
               "status": "passed"
             },
             "match": {
@@ -1486,7 +1495,7 @@
         "after": [
           {
             "result": {
-              "duration": 935110600,
+              "duration": 257071900,
               "status": "passed"
             },
             "match": {
@@ -1499,8 +1508,8 @@
         "steps": [
           {
             "result": {
-              "duration": 411587100,
-              "status": "passed"
+              "duration": 2838600,
+              "status": "skipped"
             },
             "line": 28,
             "name": "User clicks on New Contacts link",
@@ -1523,11 +1532,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-11-24T20:42:13.642Z",
+        "start_timestamp": "2019-11-26T00:31:35.850Z",
         "before": [
           {
             "result": {
-              "duration": 14954967300,
+              "duration": 21746341500,
               "status": "passed"
             },
             "match": {
@@ -1542,7 +1551,7 @@
         "after": [
           {
             "result": {
-              "duration": 1364184800,
+              "duration": 455303300,
               "status": "passed"
             },
             "match": {
@@ -1555,7 +1564,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18128000,
+              "duration": 116267200,
               "status": "passed"
             },
             "line": 9,
@@ -1567,7 +1576,7 @@
           },
           {
             "result": {
-              "duration": 158417200,
+              "duration": 644372900,
               "status": "passed"
             },
             "line": 10,
@@ -1579,7 +1588,7 @@
           },
           {
             "result": {
-              "duration": 58713700,
+              "duration": 362752600,
               "status": "passed"
             },
             "line": 11,
@@ -1597,11 +1606,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-11-24T20:42:30.212Z",
+        "start_timestamp": "2019-11-26T00:31:59.195Z",
         "before": [
           {
             "result": {
-              "duration": 18496610100,
+              "duration": 20104064400,
               "status": "passed"
             },
             "match": {
@@ -1616,7 +1625,7 @@
         "after": [
           {
             "result": {
-              "duration": 828099500,
+              "duration": 218649300,
               "status": "passed"
             },
             "match": {
@@ -1629,7 +1638,7 @@
         "steps": [
           {
             "result": {
-              "duration": 394015600,
+              "duration": 2744601100,
               "status": "passed"
             },
             "line": 16,
@@ -1651,7 +1660,7 @@
           },
           {
             "result": {
-              "duration": 3839990200,
+              "duration": 2100717800,
               "status": "passed"
             },
             "line": 17,
@@ -1669,11 +1678,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-11-24T20:42:53.779Z",
+        "start_timestamp": "2019-11-26T00:32:24.368Z",
         "before": [
           {
             "result": {
-              "duration": 16815651100,
+              "duration": 19226888100,
               "status": "passed"
             },
             "match": {
@@ -1688,7 +1697,7 @@
         "after": [
           {
             "result": {
-              "duration": 945953400,
+              "duration": 174620700,
               "status": "passed"
             },
             "match": {
@@ -1701,7 +1710,7 @@
         "steps": [
           {
             "result": {
-              "duration": 462874100,
+              "duration": 2431365400,
               "status": "passed"
             },
             "line": 21,
@@ -1723,7 +1732,7 @@
           },
           {
             "result": {
-              "duration": 7159656000,
+              "duration": 8930667000,
               "status": "passed"
             },
             "line": 22,
@@ -1736,11 +1745,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-11-24T20:43:19.186Z",
+        "start_timestamp": "2019-11-26T00:32:55.146Z",
         "before": [
           {
             "result": {
-              "duration": 14785025300,
+              "duration": 23085459200,
               "status": "passed"
             },
             "match": {
@@ -1755,7 +1764,7 @@
         "after": [
           {
             "result": {
-              "duration": 1007584400,
+              "duration": 190589500,
               "status": "passed"
             },
             "match": {
@@ -1768,7 +1777,7 @@
         "steps": [
           {
             "result": {
-              "duration": 376647200,
+              "duration": 1875578600,
               "status": "passed"
             },
             "line": 21,
@@ -1790,7 +1799,7 @@
           },
           {
             "result": {
-              "duration": 4236281400,
+              "duration": 3391393300,
               "status": "passed"
             },
             "line": 22,

@@ -51,7 +51,7 @@ public class TestBase
             //driver = new ChromeDriver();
             DesiredCapabilities cap = new DesiredCapabilities();
             cap.setBrowserName(BrowserType.CHROME);
-            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);
+            driver = new RemoteWebDriver(new URL("http://192.168.99.100:4444/wd/hub"),cap);
         }
 
         if(browserName.equals("firefox"))
